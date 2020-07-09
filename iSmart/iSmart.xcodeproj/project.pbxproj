@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45799DDF24B773F30042440E /* garage.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 45799DDE24B773F20042440E /* garage.usdz */; };
+		45799DE324B775200042440E /* garage.scn in Resources */ = {isa = PBXBuildFile; fileRef = 45799DE224B775200042440E /* garage.scn */; };
 		45F5729624B6AA1100DA9179 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F5729524B6AA1100DA9179 /* AppDelegate.swift */; };
 		45F5729824B6AA1100DA9179 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 45F5729724B6AA1100DA9179 /* art.scnassets */; };
 		45F5729A24B6AA1100DA9179 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F5729924B6AA1100DA9179 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		45799DDE24B773F20042440E /* garage.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = garage.usdz; path = iSmart/art.scnassets/garage.usdz; sourceTree = "<group>"; };
+		45799DE224B775200042440E /* garage.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; name = garage.scn; path = iSmart/art.scnassets/garage.scn; sourceTree = "<group>"; };
 		45F5729224B6AA1100DA9179 /* iSmart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iSmart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45F5729524B6AA1100DA9179 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45F5729724B6AA1100DA9179 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -40,6 +44,8 @@
 		45F5728924B6AA1100DA9179 = {
 			isa = PBXGroup;
 			children = (
+				45799DE224B775200042440E /* garage.scn */,
+				45799DDE24B773F20042440E /* garage.usdz */,
 				45F5729424B6AA1100DA9179 /* iSmart */,
 				45F5729324B6AA1100DA9179 /* Products */,
 			);
@@ -125,6 +131,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45799DE324B775200042440E /* garage.scn in Resources */,
+				45799DDF24B773F30042440E /* garage.usdz in Resources */,
 				45F5729824B6AA1100DA9179 /* art.scnassets in Resources */,
 				45F572A224B6AA1300DA9179 /* LaunchScreen.storyboard in Resources */,
 				45F5729F24B6AA1300DA9179 /* Assets.xcassets in Resources */,

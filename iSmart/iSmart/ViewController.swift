@@ -24,7 +24,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         sceneView.showsStatistics = true
         
         // Create a new scene
-        let scene = SCNScene(named: "art.scnassets/tv_retro.usdz")!
+        let scene = SCNScene(named: "garage.scn")!
         
         // Set the scene to the view
         sceneView.scene = scene
@@ -40,14 +40,22 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         let hitVector = SCNVector3Make(hitTransform.m41, hitTransform.m42, hitTransform.m43)
         
         createBall(position: hitVector)
+        //create(position: hitVector)
     }
     
     func createBall(position: SCNVector3) {
-        var ballShape = SCNSphere(radius: 0.01)
+        var ballShape = SCNSphere(radius: 0.1)
         var ballNode = SCNNode(geometry: ballShape)
         ballNode.position = position
         sceneView.scene.rootNode.addChildNode(ballNode)
         
+    }
+    
+    func create(position: SCNVector3) {
+        var shape = SCNText(string: "Hello", extrusionDepth: 1)
+        var shapeNode = SCNNode(geometry: shape)
+        shapeNode.position = position
+        sceneView.scene.rootNode.addChildNode(shapeNode)
     }
     
     override func viewWillAppear(_ animated: Bool) {

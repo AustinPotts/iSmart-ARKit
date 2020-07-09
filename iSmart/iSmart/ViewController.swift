@@ -24,7 +24,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         sceneView.showsStatistics = true
         
         // Create a new scene
-        let scene = SCNScene(named: "garage.scn")!
+        let scene = SCNScene(named: "A_Mysterious_Adventure_-_3D_Editor_Challenge copy.scn")!
         
         // Set the scene to the view
         sceneView.scene = scene
